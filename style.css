@@ -1,0 +1,101 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,300&display=swap');
+  *{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+    
+  }
+ 
+  .back{
+    background-image: url("./Asset/background.svg");
+    /* color: whitesmoke !important; */
+  }
+  .navbar-light .navbar-nav .nav-link{
+        color: whitesmoke !important;
+  }
+nav{
+  z-index: 100;
+}
+  .fnt{
+    font-weight: 900 !important;
+    font-size: 58px;
+    letter-spacing: 0.2px;
+  }
+  .main-2{
+    background-color: lightgray;
+    padding: 80px 0;
+    color: gray;
+  }
+  .main-2 h1, .client-cont h1, .about-cont h1,.price h1{
+    /* font-size: 58px; */
+    /* color: gray; */
+    font-weight: 900;
+  }
+  .client-cont{
+    padding: 80px 0;
+    color: gray;
+  }
+  .about{
+    background-color: lightgray;
+    padding: 80px 0;
+    color: gray;
+  }
+  .price{
+    background: #F0F0F0;
+    
+    padding: 80px 0;
+    color: gray;
+
+  }
+
+  .list img{
+    padding-right: 15px;
+  }
+
+  .bgcl{
+    background-color: rgba(157, 188, 201, 0.247);
+    margin-top: 25%;
+  }
+ 
+
+
+  .glass{
+    
+    /* background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px); */
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    
+    
+  }
+#er{
+  display: none;
+  
+}
+
+.fa-solid{
+  right: 15px;
+  top: 10px;
+}
+.fa-eye{
+  display: none;
+}
+
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+  @media (min-width:767px) {
+    .map{
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+     
+     
+    }
+    
+  }
